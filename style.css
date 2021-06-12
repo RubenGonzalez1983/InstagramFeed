@@ -1,0 +1,22 @@
+body {background-color: black; font-family: 'Lato', sans-serif; margin:0;}
+
+h1 {font-size: 40px; background-color:gray; display: flex; position: block; justify-content: center;}
+
+.instagram-post {background-color: white; width:430px; height: 470px; margin:auto; margin-top:25px; margin-bottom:25px; position: block;}
+
+.top {display: flex; justify-content: space-between; padding: 10px} 
+
+.top div:fist-child {font-weight:bold;}
+
+.top div:last-child {color:gray;}
+
+.middle img  {width: 100%; height: auto; display:block;}
+
+.icons {display:flex; flex-direction: row; justify-content: space-between;margin:6px;}
+
+.icons-left {display:inline-flex; flex-direction:row; column-gap:5px;}
+
+.bottom {padding:10px;}
+
+
+
